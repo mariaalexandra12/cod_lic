@@ -1,7 +1,7 @@
 body{
   height: 100px;
   width:100%;
-  background-color:aquamarine;
+  background-color:rgb(217, 239, 232);
 }
 .header{
   position: fixed;
@@ -10,14 +10,17 @@ body{
   width:100%;
   background-color:transparent;
   padding: 30px ;
-  background-color: blueviolet;
+  background-color: rgb(204, 186, 220);
   display: flex;
-  hover: auto;
+  justify-content:space-evenly;
 }
 .container{
   position:absolute;
   left: 50%;
   top: 50%;
-  background-color: blue;
-  width: 75%;
+  transform: translate(-50%,-50%);
+  width: 95%;
+  height: 550px;
+  margin-top:35px;
+  
 }
