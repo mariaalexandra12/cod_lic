@@ -39,9 +39,6 @@ body{
   font-size: 15px;
 }
 .login-form{
-  margin-right: 10%;
-}
-.login-form{
   background-color: rgb(28, 218, 235);
   border-radius: 25px;
   width:35%;
