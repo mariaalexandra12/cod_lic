@@ -10,7 +10,7 @@ body{
   width:100%;
   background-color:transparent;
   padding: 30px ;
-  background-color: rgb(204, 186, 220);
+  background-color: rgb(192, 139, 230);
   display: flex;
   justify-content:space-evenly;
 }
@@ -19,8 +19,46 @@ body{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  width: 95%;
-  height: 550px;
+  width: 75%;
+  height: 350px;
   margin-top:35px;
-  
+  background-color:blueviolet;
+  border-radius: 20px;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  background-color: white;
+  border-radius: 25px;
+  width:calc(100%-38%);
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  font-size: 15px;
+}
+.login-form{
+  margin-right: 10%;
+}
+.login-form{
+  background-color: rgb(28, 218, 235);
+  border-radius: 25px;
+  width:35%;
+  height: 100%;
+  top:0px;
+  right:0px;
+  font-size: 15px;
+  position: absolute;
+}
+.input-box{
+  justify-content: block;
+}
+.form-box{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
