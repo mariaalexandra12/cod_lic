@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="/invoice_reader_app/src/index.css">
     <title>Invoice Reader App</title>
-    <script src="https://kit.fontawesome.com/3da7a1ffc7.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -22,33 +22,37 @@
         <a href="#">Help</a>
       </header>
       <!--LOGIN -->
+     
       <div class="container">
         <div class="item">
-          <h2 class="logo"><i class='fas fa-balance-scale' style='font-size:14px'></i>Invoice Reader App</h2>
+          <h2 class="logo"><i class='bx bx-bar-chart-alt-2'></i>Invoice Reader App</h2>
           <div class="text-item">
-              <p>Aplicatia care te va ajuta sa iti inregistrezi facturile </p>
+              <p>Rezolva-ti toate problemele cu inregistrarea facturilor 
+                cu Invoice Reader App.Daca nu ai deja un cont , creaza-ti unul!</p>
+              </p>
+              <button class="create-account">Vreau Cont</button>
            </div>
         </div>
         <div class="login-form">
           <div class="form-box">
               <form action="">
-                <h2>Sign in</h2>
+              <h2>Sign in</h2>
                 <div class="input-box">
-                  <span class="icon"></span>
-                  <label for="email">Email</label>
-                  <input type="email" name="email" placeholder="Email address">
+                  <div class="icon"><i class='bx bx-envelope'></i></div>
+                  <input type="email" placeholder="Email address" required>
+                  <label >Email</label>
                 </div>
-                  <div class="input-box">
-                    <span class="icon"></span>
-                  <label for="password">Password</label>
-                  <input type="password" name="password" placeholder="Password">
+                <div class="input-box">
+                    <div class="icon"><i class='bx bxs-lock'></i></div>
+                    <input type="password" placeholder="Password" required>
+                    <label >Password</label>
                 </div>
                 <div class="remember-password">
                   <label for="remember-password"><input type="checkbox" name="remember">Remember me</label>
+                  <a href="#">Forget Password</a>
                 </div>
                 <button class="btn">Log In</button>
-
-                </button>
+            
               </form>
           </div>
         </div>
